@@ -10,7 +10,9 @@ pipeline{
 
         stage('post build')
         {
-            steps {"post build stages"}
+            steps {
+                echo "post build stages"
+                }
         }
     }
 }
